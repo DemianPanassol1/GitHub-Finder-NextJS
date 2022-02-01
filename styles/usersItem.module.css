@@ -1,0 +1,27 @@
+.container {
+    padding: 1rem;
+    border: #ccc 1px dotted;
+    margin: 0.7rem 0;
+    text-align: center;
+}
+
+.img {
+    border-radius: 50%;
+}
+
+.btn a{
+    display: inline-block;
+    background: #333333;
+    color: #fff;
+    padding: 0.3rem 1rem;
+    font-size: 0.8rem;
+    border: none;
+    cursor: pointer;
+    margin: 1rem 0.2rem 0 0;
+    transition: opacity 0.2s ease-in;
+    outline: none;
+}
+
+.btn a:hover {
+    opacity: 0.8;
+}
